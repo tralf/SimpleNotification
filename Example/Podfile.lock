@@ -1,0 +1,16 @@
+PODS:
+  - SimpleNotification (0.1.0)
+
+DEPENDENCIES:
+  - SimpleNotification (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleNotification:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleNotification: 7b8bb94f09ad1da63d21abcaf4cc42635a70584e
+
+PODFILE CHECKSUM: 74b88ed201433999dccb8de14384dc5490b4f546
+
+COCOAPODS: 1.5.3

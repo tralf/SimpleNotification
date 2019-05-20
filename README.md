@@ -1,9 +1,6 @@
 # SimpleNotification
 
-[![CI Status](https://img.shields.io/travis/Viktor Kalinchuk/SimpleNotification.svg?style=flat)](https://travis-ci.org/Viktor Kalinchuk/SimpleNotification)
-[![Version](https://img.shields.io/cocoapods/v/SimpleNotification.svg?style=flat)](https://cocoapods.org/pods/SimpleNotification)
-[![License](https://img.shields.io/cocoapods/l/SimpleNotification.svg?style=flat)](https://cocoapods.org/pods/SimpleNotification)
-[![Platform](https://img.shields.io/cocoapods/p/SimpleNotification.svg?style=flat)](https://cocoapods.org/pods/SimpleNotification)
+[![CI Status](https://img.shields.io/travis/tralf/SimpleNotification.svg?style=flat)](https://travis-ci.org/tralf/SimpleNotification)
 
 ## Example
 

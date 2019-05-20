@@ -8,35 +8,24 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleNotification'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SimpleNotification.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+  s.version          = '0.5'
+  s.summary          = 'A lightweight wrapper for native notifications with typed event observers.'
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                        A lightweight wrapper for native notifications.
+                        Features:
+                        1. Easy-to-use Swift-style replacement for Notification and NotificationCenter functionality
+                        2. Closure-based - no need to deal with selectors anymore
+                        3. Uses the power of Swift generics. Observers wait for a user data with specific type - they get it!
                        DESC
 
-  s.homepage         = 'https://github.com/Viktor Kalinchuk/SimpleNotification'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/tralf/SimpleNotification'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Viktor Kalinchuk' => 'viktor.kalinchuk@gmail.com' }
-  s.source           = { :git => 'https://github.com/Viktor Kalinchuk/SimpleNotification.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/tralf/SimpleNotification.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '5.0'
 
-  s.source_files = 'SimpleNotification/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'SimpleNotification' => ['SimpleNotification/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'SimpleNotification/Source/**/*.swift'
 end
